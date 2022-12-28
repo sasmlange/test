@@ -1,0 +1,22 @@
+Screen:
+    MDLabel:
+        text: "[b]Blobfish[/b]"
+        halign: "center"
+        pos_hint: {'center_x': 0.5, 'center_y': 0.6}
+        font_style: "H4"
+        markup: True
+
+    MDLabel:
+        text: "The world's [b]ugliest[/b] animal"
+        halign: "center"
+        pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+        id: txt
+        markup: True
+
+    MDFillRoundFlatIconButton:
+        text: 'Fix Bugs'
+        pos_hint: {'center_x': 0.5, 'center_y': 0.4}
+        width: dp(230)
+        icon: 'bug'
+        on_press:
+            app.changeText()
