@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = "Blobfish"
+title = Blobfish
 
 # (str) Package name
-package.name = "blobfish"
+package.name = blobfish
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = "com.blobfish"
+package.domain = com.blobfish
 
 # (str) Source code where the main.py live
 source.dir = .
